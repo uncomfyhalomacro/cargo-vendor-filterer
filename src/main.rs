@@ -14,8 +14,7 @@ use std::io::{BufReader, Write};
 use std::process::Command;
 use std::vec;
 
-use cargo_vendor_filterer::*;
-
+use cargo_vendor_filterer::consts::*;
 mod tiers;
 
 /// This is the .cargo-checksum.json in a crate/package.
